@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- 拼图验证 -->
+        <link rel="stylesheet" href="./slider/style.css">
+    <script type="text/javascript" src="./slider/style.js"></script>
+</head>
+<body>
+				<div id="slideBar" style="height: 400px;width: 400px;background-color: red">
+                                        <script type="text/javascript">
+                                            var dataList = ["0","1"];
+                                            var options = {
+                                                dataList: dataList,
+                                                success:function(){  
+                                                    console.log("show");  
+                                                },
+                                                fail: function(){
+                                                    console.log("fail");  
+                                                }
+                                            };
+                                            SliderBar("slideBar", options);
+                                        </script>
+                                    </div>
+</body>
+</html>
