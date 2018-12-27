@@ -1,5 +1,9 @@
 package pers.geolo.LogisticsAssistant.entity;
 
+import pers.geolo.LogisticsAssistant.value.TransportableType;
+import pers.geolo.LogisticsAssistant.value.UserType;
+import pers.geolo.LogisticsAssistant.value.VehicleType;
+
 public class User {
 
     // 公有属性

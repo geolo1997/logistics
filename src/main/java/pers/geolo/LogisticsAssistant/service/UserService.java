@@ -1,12 +1,8 @@
 package pers.geolo.LogisticsAssistant.service;
 
-import pers.geolo.LogisticsAssistant.dao.CargoInformationDAO;
 import pers.geolo.LogisticsAssistant.dao.DAOFactory;
 import pers.geolo.LogisticsAssistant.dao.UserDAO;
-import pers.geolo.LogisticsAssistant.entity.CargoInformation;
 import pers.geolo.LogisticsAssistant.entity.User;
-
-import java.util.List;
 
 public class UserService {
 

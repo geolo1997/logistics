@@ -1,6 +1,6 @@
 package pers.geolo.LogisticsAssistant.dao;
 
-import pers.geolo.LogisticsAssistant.entity.CargoInformation;
+import pers.geolo.LogisticsAssistant.entity.Cargo;
 import pers.geolo.LogisticsAssistant.entity.User;
 import pers.geolo.LogisticsAssistant.utils.DAOUtils;
 
@@ -9,16 +9,16 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
-public class CargoInformationDAOImpl implements CargoInformationDAO {
+public class CargoDAOImpl implements CargoDAO {
 
     @Override
-    public boolean save(CargoInformation cargoInformation) {
+    public boolean save(Cargo cargo) {
         // TODO
         return true;
     }
 
     @Override
-    public List<CargoInformation> listCargoInformation(User user) {
+    public List<Cargo> listCargo(User user) {
         DataBaseConnection connection = DataBaseConnection.getInstance();
         String SQL = "SELECT CargeInformation.* " +
                 "FROM CargeInformation, [User] " +
@@ -26,15 +26,25 @@ public class CargoInformationDAOImpl implements CargoInformationDAO {
                 "User.name = ?";
         PreparedStatement statement;
         ResultSet resultSet;
-        List<CargoInformation> cargoList = null;
+        List<Cargo> cargoList = null;
         try {
             statement = connection.getConnection().prepareStatement(SQL);
             statement.setString(1, user.getUsername());
             resultSet = statement.executeQuery();
-            cargoList = (List<CargoInformation>) DAOUtils.getList(resultSet);
+            cargoList = (List<Cargo>) DAOUtils.getList(resultSet);
         } catch (SQLException e) {
             e.printStackTrace();
         }
         return cargoList;
+    }
+
+    @Override
+    public Cargo getCargo(int id) {
+        return null;
+    }
+
+    @Override
+    public List<Cargo> listAllCargo() {
+        return null;
     }
 }

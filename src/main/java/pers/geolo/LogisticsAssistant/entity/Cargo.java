@@ -1,13 +1,16 @@
 package pers.geolo.LogisticsAssistant.entity;
 
+import pers.geolo.LogisticsAssistant.value.CargoState;
+import pers.geolo.LogisticsAssistant.value.CargoType;
+
 import java.util.Date;
 
-public class CargoInformation {
+public class Cargo {
 
-    // 货物编号
-    private int id;
+    // 货物编号 主键
+    private int cargoNumber;
     // 货主用户名
-    private String shipper;
+    private String shipperUsername;
     // 发布时间
     private Date publishTime;
     // 货物名称
@@ -23,6 +26,11 @@ public class CargoInformation {
     // 运费
     private float freight;
 
+    // 承运司机
+    private String driverUsername;
+    // 货物状态
+    private CargoState cargoState;
+
 
     public void setCargoName(String cargoName) {
         this.cargoName = cargoName;
@@ -30,6 +38,10 @@ public class CargoInformation {
 
     @Override
     public String toString() {
-        return shipper + cargoName;
+        return shipperUsername + cargoName;
+    }
+
+    public int getCargoNumber() {
+        return cargoNumber;
     }
 }

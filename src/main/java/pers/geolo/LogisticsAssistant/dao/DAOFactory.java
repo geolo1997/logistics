@@ -9,8 +9,8 @@ public class DAOFactory {
     public <T extends BaseDAO> T getDAO(String daoName) {
         if ("UserDAO".equals(daoName)) {
             return (T) new UserDAOImpl();
-        } else if("CargoInformationDAO".equals(daoName)){
-            return (T) new CargoInformationDAOImpl();
+        } else if("CargoDAO".equals(daoName)){
+            return (T) new CargoDAOImpl();
         }
         return null;
     }

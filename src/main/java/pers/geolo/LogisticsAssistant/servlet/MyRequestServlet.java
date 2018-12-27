@@ -1,6 +1,5 @@
 package pers.geolo.LogisticsAssistant.servlet;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -11,8 +10,8 @@ import java.io.IOException;
 /**
  * @author 桀骜
  */
-@WebServlet(name = "IndexServlet", urlPatterns = "/index")
-public class IndexServlet extends HttpServlet {
+@WebServlet(name = "MyRequestServlet", urlPatterns = "/myRequest")
+public class MyRequestServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         doGet(request, response);
@@ -20,7 +19,6 @@ public class IndexServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        // 跳转至主界面
-        request.getRequestDispatcher("/index.jsp").forward(request, response);
+        request.getRequestDispatcher("/myRequest.jsp").forward(request, response);
     }
 }

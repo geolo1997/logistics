@@ -1,8 +1,7 @@
 package pers.geolo.LogisticsAssistant.servlet;
 
-import pers.geolo.LogisticsAssistant.entity.CargoInformation;
+import pers.geolo.LogisticsAssistant.entity.Cargo;
 import pers.geolo.LogisticsAssistant.service.TradeService;
-import pers.geolo.LogisticsAssistant.service.UserService;
 import pers.geolo.LogisticsAssistant.utils.BeanUtils;
 
 import javax.servlet.ServletException;
@@ -21,8 +20,8 @@ public class PublishServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        CargoInformation cargoInformation = (CargoInformation) BeanUtils.getBean(request);
-        TradeService.getInstance().publish(cargoInformation);
+        Cargo cargo = (Cargo) BeanUtils.getBean(request);
+        TradeService.getInstance().publish(cargo);
         // 重定向至发布成功页面
         response.sendRedirect(request.getContextPath() + "/publishSuccess.jsp");
     }

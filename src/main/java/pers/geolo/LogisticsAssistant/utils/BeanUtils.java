@@ -1,6 +1,6 @@
 package pers.geolo.LogisticsAssistant.utils;
 
-import pers.geolo.LogisticsAssistant.entity.CargoInformation;
+import pers.geolo.LogisticsAssistant.entity.Cargo;
 import pers.geolo.LogisticsAssistant.entity.User;
 
 import javax.servlet.http.HttpServletRequest;
@@ -15,9 +15,9 @@ public class BeanUtils {
             return user;
         } else  if(request.getParameter("cargoName") != null) {
             // TODO 将货主设置为当前会话用户
-            CargoInformation cargoInformation = new CargoInformation();
-            cargoInformation.setCargoName(request.getParameter("cargoName"));
-            return cargoInformation;
+            Cargo cargo = new Cargo();
+            cargo.setCargoName(request.getParameter("cargoName"));
+            return cargo;
         }
         return null;
     }

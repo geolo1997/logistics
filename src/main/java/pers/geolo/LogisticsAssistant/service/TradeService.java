@@ -1,19 +1,23 @@
 package pers.geolo.LogisticsAssistant.service;
 
-import pers.geolo.LogisticsAssistant.dao.CargoInformationDAO;
+import pers.geolo.LogisticsAssistant.dao.CargoDAO;
 import pers.geolo.LogisticsAssistant.dao.DAOFactory;
-import pers.geolo.LogisticsAssistant.entity.CargoInformation;
+import pers.geolo.LogisticsAssistant.entity.Cargo;
+import pers.geolo.LogisticsAssistant.entity.TradeRequest;
 import pers.geolo.LogisticsAssistant.entity.User;
 
 import java.util.List;
 
 public class TradeService {
 
-    CargoInformationDAO cargoInformationDAO;
+    CargoDAO cargoDAO;
 
     private TradeService() {
-        cargoInformationDAO = DAOFactory.getInstance().getDAO("CargoInformationDAO");
+        cargoDAO = DAOFactory.getInstance().getDAO("CargoDAO");
     }
+
+
+
 
     // 实例持有者
     private static class Holder {
@@ -25,11 +29,25 @@ public class TradeService {
         return Holder.INSTANCE;
     }
 
-    public boolean publish(CargoInformation cargoInformation) {
-        return cargoInformationDAO.save(cargoInformation);
+    public boolean publish(Cargo cargo) {
+        return cargoDAO.save(cargo);
     }
 
-    public List<CargoInformation> getMyPublish(User user) {
-        return cargoInformationDAO.listCargoInformation(user);
+    public List<Cargo> getMyPublish(User user) {
+        return cargoDAO.listCargo(user);
     }
+
+    public Cargo getCargoDetail(int id) {
+        return cargoDAO.getCargo(id);
+    }
+
+
+    public List<Cargo> getAllPublished() {
+        return cargoDAO.listAllCargo();
+    }
+
+    public List<TradeRequest> getTradeRequestList(int cargoNumber) {
+        return null;
+    }
+
 }
