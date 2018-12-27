@@ -26,9 +26,11 @@ public class LogoutServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         User user = (User) request.getSession().getAttribute("user");
-        UserService.getInstance().logout(user);
-        // 删除会话信息
-        request.getSession().setAttribute("user", null);
+        if (user != null) {
+            UserService.getInstance().logout(user);
+            // 删除会话信息
+            request.getSession().removeAttribute("user");
+        }
         response.sendRedirect(request.getContextPath() + "/logoutSuccess.jsp");
     }
 }
