@@ -27,8 +27,8 @@ public class ProfileServlet extends HttpServlet {
             UserService.getInstance().update(newUser);
             // 更新后的信息存储至session
             request.getSession().setAttribute("user", newUser);
-            // 重定向至修改成功页面
-            response.sendRedirect(request.getContextPath() + "/updateSuccess");
+            // 转发至修改成功页面
+            request.getRequestDispatcher("/updateSuccess.jsp").forward(request, response);
         } else { // 修改失败
             // 转发至修改失败页面
             request.getRequestDispatcher("/updateFailed.jsp").forward(request, response);
