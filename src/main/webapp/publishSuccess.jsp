@@ -9,6 +9,9 @@
 <html>
 <head>
     <title>Title</title>
+    <!-- 3秒后跳转页面-->
+    <span style="font-size:18px;"> </span><span style="font-size:24px;"><meta http-equiv="refresh" content="3;URL=index"> </span>
+    <span style="font-size:24px;"></span>
 </head>
 <body>
     发布成功

@@ -9,24 +9,19 @@
 <html>
 <head>
     <title>注册成功</title>
-    <script language="javascript" type="text/javascript">
-        function jump() {
-            window.location.href="index.jsp";
-        }
-    </script>
+    <!-- 3秒后跳转页面-->
+    <span style="font-size:18px;"> </span><span style="font-size:24px;"><meta http-equiv="refresh" content="3;URL=index"> </span>
+    <span style="font-size:24px;"></span>
 </head>
 <body>
-注册成功，5秒后跳转至主页
-<script language="javascript" type="text/javascript">
-    setTimeout(jump(), 10000);
-</script>
+注册成功，3秒后跳转至主页
 <%--<%--%>
     <%--try {--%>
         <%--Thread.sleep(5000);--%>
     <%--} catch (InterruptedException e) {--%>
         <%--e.printStackTrace();--%>
     <%--}--%>
-    <%--RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");--%>
+    <%--RequestDispatcher dispatcher = request.getRequestDispatcher("/index3.jsp");--%>
     <%--dispatcher.forward(request, response);--%>
 <%--%>--%>
 </body>
