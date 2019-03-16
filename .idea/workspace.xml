@@ -7,443 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67a968bc-5d67-42cd-9d5a-6ae4cae71239" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/logisticsassistant_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/logisticsassistant_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsp_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logisticsassistant.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/CargoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/DAOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/impl/CargoDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/impl/UserDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/entity/Cargo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/entity/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/service/CargoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/CargoDetailServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/driver/MyRequestServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/driver/TradeOrderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/shipper/MyPublishServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/shipper/PublishServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/util/DAOUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/util/MyBeanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/util/ServletUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/value/CargoType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/value/TransportableType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/value/UserType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/value/VehicleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/FromCheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/PermissionCheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/loginFailed.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/tradeOrder.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_7_0_62.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/logisticsassistant_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/logisticsassistant_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jsp_api.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/table/LogisticsAssistantDataBase.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/table/LogisticsAssistantDataBase.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logisticsassistant.iml" beforeDir="false" afterPath="$PROJECT_DIR$/logisticsassistant.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/dao/BaseDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/dao/CargoDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/dao/CargoDAOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/dao/DAOFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/dao/DataBaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/DataBaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/dao/UserDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/dao/UserDAOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/entity/Cargo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/entity/TradeRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/service/TradeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/servlet/AllPublishedServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/driver/AllPublishedServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/servlet/CargoDetailServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/servlet/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/IndexServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/servlet/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/LogoutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/servlet/MyPublishServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/servlet/MyRequestServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/servlet/ProfileServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/ProfileServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/servlet/PublishServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/servlet/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/utils/BeanUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/utils/DAOUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/value/CargoState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/value/CargoState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/value/CargoType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/value/TransportableType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/value/UserType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/LogisticsAssistant/value/VehicleType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/allPublished.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/allPublished.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/bootstrap/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/less/animated.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/scss/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-1.11.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.backstretch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/placeholder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/cargoDetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/cargoDetail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/demo/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/demo/register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/logoutSuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/logoutSuccess.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/myProfile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/myProfile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/myPublish.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/myPublish.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/myRequest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/myRequest.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/publish.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/publish.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/publishSuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/publishSuccess.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/registerSuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/registerSuccess.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/slider/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/slider/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/slider/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/slider/style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/bootstrap/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/css/form-elements.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/less/animated.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/scss/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/font-awesome/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/ico/apple-touch-icon-114-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/ico/apple-touch-icon-144-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/ico/apple-touch-icon-57-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/ico/apple-touch-icon-72-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/ico/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/img/backgrounds/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/img/backgrounds/1@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/js/jquery-1.11.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/js/jquery-1.11.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/js/jquery.backstretch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/js/jquery.backstretch.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/js/placeholder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/assets/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/index1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/slider/.vscode/iisexpress.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/slider/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/slider/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/slider/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/slider/images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/slider/images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/slider/images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/slider/images/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/slider/images/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/slider/images/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/slider/images/sprite.3.2.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/slider/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/slider/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sorce/slider/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/updateSuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/updateSuccess.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/META-INF/LogisticsAssistant.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/dao/BaseDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/dao/DAOFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/dao/DataBaseConnection$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/dao/DataBaseConnection$Holder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/dao/DataBaseConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/dao/UserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/dao/UserDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/entity/Driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/entity/TransportableType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/entity/UserType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/entity/VehicleType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/service/UserService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/service/UserService$Holder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/servlet/IndexServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/servlet/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/servlet/LogoutServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/servlet/ProfileServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/servlet/RegisterServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/utils/DAOUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/classes/pers/geolo/LogisticsAssistant/utils/RequestToBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/bootstrap/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/css/form-elements.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/less/animated.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/scss/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/font-awesome/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/ico/apple-touch-icon-114-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/ico/apple-touch-icon-144-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/ico/apple-touch-icon-57-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/ico/apple-touch-icon-72-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/ico/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/img/backgrounds/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/img/backgrounds/1@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/js/jquery-1.11.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/js/jquery-1.11.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/js/jquery.backstretch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/js/jquery.backstretch.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/js/placeholder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/assets/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/demo/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/demo/register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/logoutSuccess.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/myProfile.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/registerSuccessful.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/slider/.vscode/iisexpress.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/slider/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/slider/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/slider/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/slider/images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/slider/images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/slider/images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/slider/images/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/slider/images/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/slider/images/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/slider/images/sprite.3.2.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/slider/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/slider/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/slider/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/bootstrap/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/css/form-elements.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/less/animated.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/scss/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/font-awesome/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/ico/apple-touch-icon-114-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/ico/apple-touch-icon-144-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/ico/apple-touch-icon-57-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/ico/apple-touch-icon-72-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/ico/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/img/backgrounds/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/img/backgrounds/1@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/js/jquery-1.11.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/js/jquery-1.11.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/js/jquery.backstretch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/js/jquery.backstretch.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/js/placeholder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/assets/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/index1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/slider/.vscode/iisexpress.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/slider/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/slider/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/slider/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/slider/images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/slider/images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/slider/images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/slider/images/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/slider/images/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/slider/images/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/slider/images/sprite.3.2.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/slider/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/slider/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LogisticsAssistant/sorce/slider/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/dao/BaseDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/dao/DAOFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/dao/DAOFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/dao/DataBaseConnection$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/dao/DataBaseConnection$Holder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/dao/DataBaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/dao/DataBaseConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/dao/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/dao/UserDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/entity/Driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/entity/TransportableType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/entity/UserType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/entity/VehicleType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/service/UserService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/service/UserService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/service/UserService$Holder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/service/UserService$Holder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/servlet/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/servlet/IndexServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/servlet/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/servlet/LogoutServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/servlet/ProfileServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/servlet/ProfileServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/servlet/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/servlet/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/utils/DAOUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pers/geolo/LogisticsAssistant/utils/RequestToBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/DataBaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/DataBaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/impl/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/impl/UserDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/FromCheck.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/FromCheck.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Logistics Assistant/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Logistics Assistant/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Logistics Assistant/WEB-INF/classes/pers/geolo/logisticsassistant/dao/DataBaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Logistics Assistant/WEB-INF/classes/pers/geolo/logisticsassistant/dao/DataBaseConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Logistics Assistant/WEB-INF/classes/pers/geolo/logisticsassistant/dao/impl/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Logistics Assistant/WEB-INF/classes/pers/geolo/logisticsassistant/dao/impl/UserDAOImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -466,38 +48,57 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Logistics Assistant" type="feb32156:DbDataSourceImpl" />
+        <item name="Nima_Logistics" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Logistics Assistant" type="feb32156:DbDataSourceImpl" />
-        <item name="Nima Logistics: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="Nima_Logistics" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Logistics Assistant" type="feb32156:DbDataSourceImpl" />
-        <item name="Nima Logistics: database" type="ccb7ac2a:MsImplModel$Database" />
-        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+        <item name="Nima_Logistics" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="Nima_Logistics: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/cargoDetail.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/DataBaseConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-806">
-              <caret line="250" column="86" selection-start-line="250" selection-start-column="86" selection-end-line="250" selection-end-column="86" />
+            <state relative-caret-position="287">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/LoginServlet.java">
+        <entry file="file://$PROJECT_DIR$/logisticsassistant.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/impl/UserDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="26" column="46" selection-end-line="53" />
+            <state relative-caret-position="1844">
+              <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/78c9ce0e-e279-423b-b282-146d8bf5da6d/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://78c9ce0e-e279-423b-b282-146d8bf5da6d/schema/Nima_Logistics/table/User">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -505,71 +106,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/shipper/PublishServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="20" lean-forward="true" selection-end-line="50" />
+            <state relative-caret-position="469">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/shipper/MyPublishServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/FromCheck.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-244">
-              <caret line="23" column="47" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/shipper/SelectDriverServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="22" column="50" lean-forward="true" selection-end-line="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/driver/AllPublishedServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="37" lean-forward="true" selection-end-line="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/driver/RequestServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            <state relative-caret-position="72">
+              <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/driver/TradeOrderServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="22" column="13" lean-forward="true" selection-end-line="50" />
+        <entry file="das://78c9ce0e-e279-423b-b282-146d8bf5da6d/schema/Nima_Logistics/table/Cargo">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/RegisterServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="18" column="13" selection-end-line="44" />
+            <state relative-caret-position="96">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/CargoDetailServlet.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-214">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="253">
+              <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -591,7 +168,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/impl/UserDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/cargoDetail.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/myPublish.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/myRequest.jsp" />
@@ -610,6 +186,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/updateSuccess.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/registerSuccess.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/publishSuccess.jsp" />
+        <option value="$PROJECT_DIR$/db/table/LogisticsAssistantDataBase.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/impl/UserDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/DataBaseConnection.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/js/FromCheck.js" />
       </list>
     </option>
   </component>
@@ -648,9 +229,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
+      <sortByType ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -674,44 +260,7 @@
               <item name="Logistics Assistant" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logisticsassistant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Logistics Assistant" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logisticsassistant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logisticsassistant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Logistics Assistant" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logisticsassistant" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logisticsassistant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Logistics Assistant" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logisticsassistant" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logisticsassistant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Logistics Assistant" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logisticsassistant" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="shipper" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="logisticsassistant" type="b2602c69:ProjectViewProjectNode" />
@@ -719,21 +268,90 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="logisticsassistant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Logistics Assistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logisticsassistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Logistics Assistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logisticsassistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Logistics Assistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logisticsassistant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logisticsassistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Logistics Assistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logisticsassistant" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logisticsassistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Logistics Assistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logisticsassistant" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logisticsassistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Logistics Assistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logisticsassistant" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="logisticsassistant" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="logisticsassistant" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="db" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="logisticsassistant" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="db" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="table" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mariadb&#10;sqlserver" />
+    <property name="DatabaseDriversLRU" value="mariadb&#10;sqlserver&#10;mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546355936426" />
@@ -741,7 +359,7 @@
     <property name="last_opened_file_path" value="D:/tomcat/apache-tomcat-9.0.13/lib/servlet-api.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3065637" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -759,7 +377,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat 9.0.13" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.13" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 8.5.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/logisticsassistant_war_exploded/" />
       <deployment>
         <artifact name="logisticsassistant:war exploded">
@@ -769,7 +387,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_logisticsassistant" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_logisticsassistant_4" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -777,7 +395,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="53259" />
+        <option name="DEBUG_PORT" value="38909" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -849,13 +467,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16417000" />
+    <option name="totallyTimeSpent" value="17422000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25751072" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22271468" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -867,7 +485,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3295711" />
       <window_info anchor="bottom" id="Run" order="3" />
-      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.40970653" />
+      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.38486487" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -882,10 +500,10 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3299356" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32963988" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.20118026" />
+      <window_info active="true" anchor="right" id="Database" order="6" visible="true" weight="0.20110804" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -928,20 +546,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tomcat/apache-tomcat-9.0.13/lib/jsp-api.jar!/javax/servlet/jsp/JspWriter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/tomcat/apache-tomcat-9.0.13/lib/jsp-api.jar!/javax/servlet/jsp/JspWriter.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -959,13 +564,6 @@
             <element signature="e#1106#1107#0" expanded="true" />
             <element signature="e#1143#1144#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/impl/UserDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1005,15 +603,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/publish.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="174" column="41" selection-start-line="174" selection-start-column="41" selection-end-line="174" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/FromCheck.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        <state relative-caret-position="456">
+          <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1026,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/CargoDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state relative-caret-position="216">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1040,7 +631,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/impl/CargoDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
+        <state relative-caret-position="3048">
           <caret line="138" column="58" selection-start-line="138" selection-start-column="58" selection-end-line="138" selection-end-column="58" />
         </state>
       </provider>
@@ -1054,7 +645,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/value/CargoType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
+        <state relative-caret-position="48">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
@@ -1115,30 +706,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2361a675-998f-4c9b-8c33-7c6230086764/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://2361a675-998f-4c9b-8c33-7c6230086764/database/master/schema/dbo/table/User">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/DataBaseConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="14" column="118" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://2361a675-998f-4c9b-8c33-7c6230086764/database/Nima Logistics/schema/dbo/table/User">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2361a675-998f-4c9b-8c33-7c6230086764/console.sql" />
+    <entry file="das://2361a675-998f-4c9b-8c33-7c6230086764/database/master/schema/dbo/table/User" />
+    <entry file="das://2361a675-998f-4c9b-8c33-7c6230086764/database/Nima Logistics/schema/dbo/table/User" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/updateSuccess.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1164,20 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="18" column="13" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="26" column="46" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/shipper/PublishServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="20" lean-forward="true" selection-end-line="50" />
         </state>
       </provider>
     </entry>
@@ -1213,6 +769,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="22" column="13" lean-forward="true" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2d647e0-1b39-4190-b1eb-8d9a73453cbd/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/table/LogisticsAssistantDataBase.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2208">
+          <caret line="92" column="12" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/impl/UserDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1844">
+          <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/78c9ce0e-e279-423b-b282-146d8bf5da6d/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/dao/DataBaseConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logisticsassistant.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pers/geolo/logisticsassistant/servlet/shipper/PublishServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://78c9ce0e-e279-423b-b282-146d8bf5da6d/schema/Nima_Logistics/table/User">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/FromCheck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://78c9ce0e-e279-423b-b282-146d8bf5da6d/schema/Nima_Logistics/table/Cargo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1262,7 +893,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.3150579" />
+                <option value="0.3065637" />
               </list>
             </option>
           </splitter-proportions>
@@ -1282,7 +913,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>servlet-api</last-edited>
+          <last-edited>Maven: commons-beanutils:commons-beanutils:1.9.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

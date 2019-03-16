@@ -196,8 +196,8 @@
                                 out.println("<li class=\"list-group-item\">货物类型:" + cargo.getCargoType() + "</li>");
                                 out.println("<li class=\"list-group-item\">起点:" + cargo.getOrigin() + "</li>");
                                 out.println("<li class=\"list-group-item\">终点:" + cargo.getDestination() + "</li>");
-                                out.println("<li class=\"list-group-item\">距离:" + cargo.getDistance() + "</li>");
-                                out.println("<li class=\"list-group-item\">运费:" + cargo.getFreight() + "</li>");
+                                out.println("<li class=\"list-group-item\">距离(km):" + cargo.getDistance() + "</li>");
+                                out.println("<li class=\"list-group-item\">运费（元）:" + cargo.getFreight() + "</li>");
                                 out.println(" </ul>\n" +
                                         "                                </div>\n" +
                                         "                                <div class=\"button\" align=\"center\">");

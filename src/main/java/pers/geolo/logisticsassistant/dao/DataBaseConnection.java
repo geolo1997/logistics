@@ -5,25 +5,25 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- * @桀骜
- * 数据库连接类
+ * @桀骜 数据库连接类
  * 单例模式
  */
 public class DataBaseConnection {
 
-    private final String DBDRIVER = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-    private final String DB_URL = "jdbc:sqlserver://localhost:1433;databaseName=Nima Logistics;user=sa;password=123456";
+    private final String DBDRIVER = "com.mysql.jdbc.Driver";
+    private final String DB_URL = "jdbc:mysql://localhost:3306/Nima_Logistics";
+    private final String USER = "Geolo";
+    private final String PASSWORD = "123456";
 
     private Connection connection;
 
     public DataBaseConnection() {
         try {
             Class.forName(DBDRIVER);
-            connection = DriverManager.getConnection(DB_URL);
+            connection = DriverManager.getConnection(DB_URL, USER, PASSWORD);
         } catch (Exception e) {
 //        TODO     System.out.println("数据库创建异常");
             e.printStackTrace();
-
         }
     }
 
@@ -39,5 +39,4 @@ public class DataBaseConnection {
             e.printStackTrace();
         }
     }
-
 }

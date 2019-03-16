@@ -210,14 +210,14 @@
                                     </div>
                                 </div>
                                 <div class="form-group form-inline">
-                                    <label class="col-md-2 col-form-label"><strong>距离</strong></label>
+                                    <label class="col-md-2 col-form-label"><strong>距离(km)</strong></label>
                                     <div class="col-md-9 p-0">
                                         <input type="text" name="distance"
                                                class="form-control input-full">
                                     </div>
                                 </div>
                                 <div class="form-group form-inline">
-                                    <label class="col-md-2 col-form-label"><strong>运费</strong></label>
+                                    <label class="col-md-2 col-form-label"><strong>运费（元）</strong></label>
                                     <div class="col-md-9 p-0">
                                         <input type="text" name="freight"
                                                class="form-control input-full">

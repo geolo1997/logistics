@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="Logistics Assistant" uuid="2361a675-998f-4c9b-8c33-7c6230086764">
-      <database-info product="Microsoft SQL Server" version="10.50.1600" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 7.0 for SQL Server" driver-version="7.0.0.0" dbms="MSSQL" exact-version="10.50.1600">
-        <extra-name-characters>$#@</extra-name-characters>
-        <identifier-quote-string>&quot;</identifier-quote-string>
+    <data-source name="Nima_Logistics" uuid="78c9ce0e-e279-423b-b282-146d8bf5da6d">
+      <database-info product="MySQL" version="5.7.25-0ubuntu0.18.04.2" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" dbms="MYSQL" exact-version="5.7.25" exact-driver-version="5.1">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
       </database-info>
-      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
-      <user-name>sa</user-name>
-      <introspection-schemas>@:@</introspection-schemas>
+      <user-name>Geolo</user-name>
+      <introspection-schemas>*:@</introspection-schemas>
     </data-source>
   </component>
 </project>

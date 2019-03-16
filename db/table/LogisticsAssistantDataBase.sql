@@ -1,36 +1,36 @@
 -- 定义车型表
 CREATE TABLE VehicleType (
-    id BIGINT IDENTITY(0, 1) PRIMARY KEY,
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(20)
 );
 
 -- 定义可运输类型表
 CREATE TABLE TransportableType (
-    id BIGINT IDENTITY(0, 1) PRIMARY KEY,
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(20)
 );
 
 -- 定义用户类型表
 CREATE TABLE UserType (
-    id BIGINT IDENTITY(0, 1) PRIMARY KEY,
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(20)
 );
 
 -- 定义货物类别表
 CREATE TABLE CargoType (
-    id BIGINT IDENTITY(0, 1) PRIMARY KEY,
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(20)
 );
 
 
 -- 定义用户表
-CREATE TABLE [User] (
-    id BIGINT IDENTITY(0, 1) PRIMARY KEY, -- 自增主键
+CREATE TABLE User (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY, -- 自增主键
     -- 注册所需属性
     username VARCHAR(20) UNIQUE NOT NULL, -- 用户名
     password VARCHAR(20) NOT NULL, -- 密码
     email VARCHAR(20) NOT NULL, -- 电子邮件地址
-    userTypeId BIGINT REFERENCES UserType(id) NOT NULL, -- 用户类型
+    userTypeId BIGINT NOT NULL REFERENCES UserType(id) , -- 用户类型
     -- 公有属性
     realName VARCHAR(20), -- 真实姓名
     telephone VARCHAR(20), -- 电话号码
@@ -44,14 +44,14 @@ CREATE TABLE [User] (
 
 -- 定义货物状态表
 CREATE TABLE CargoState (
-    id BIGINT IDENTITY(0, 1) PRIMARY KEY,
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(20)
 );
 
 -- 定义货物信息表
 CREATE TABLE Cargo (
-    id BIGINT IDENTITY(0, 1) PRIMARY KEY,  -- 货物编号，自增主键
-    shipperId BIGINT REFERENCES [User](id), -- 货主id
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,  -- 货物编号，自增主键
+    shipperId BIGINT REFERENCES User(id), -- 货主id
     cargoName VARCHAR(20), -- 货物名称
     cargoTypeId BIGINT REFERENCES CargoType(id), -- 货物类型
     origin VARCHAR(50), -- 起点
@@ -67,8 +67,8 @@ CREATE TABLE Cargo (
 
 -- 定义承运申请表
 CREATE TABLE Request (
-    id BIGINT IDENTITY(0, 1) PRIMARY KEY, -- 承运编号，自增主键
-    driverId BIGINT REFERENCES [User](id), -- 司机用户名
+    id BIGINT AUTO_INCREMENT PRIMARY KEY, -- 承运编号，自增主键
+    driverId BIGINT REFERENCES User(id), -- 司机用户名
     cargoId BIGINT REFERENCES Cargo(id), -- 货物编号
     requestTime DATETIME -- 申请时间
 );
@@ -90,6 +90,6 @@ CREATE TABLE Request (
 
 -- 查询某用户发布的货物信息
 SELECT Cargo.*
-FROM Cargo, [User]
+FROM Cargo, User
 WHERE Cargo.shipper = User.id AND
     User.name = ?

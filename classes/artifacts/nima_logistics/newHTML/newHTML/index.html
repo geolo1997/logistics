@@ -1,0 +1,186 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>我的主页-尼玛拉货</title>
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+	<link rel="stylesheet" href="assets/css/ready.css">
+	<link rel="stylesheet" href="assets/css/demo.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="main-header">
+			<div class="logo-header">
+				<a href="index.html" class="logo">
+					我的主页
+				</a>
+			</div>
+			<nav class="navbar navbar-header navbar-expand-lg">
+				<div class="container-fluid">
+					<form class="navbar-left navbar-form nav-search mr-md-3" action="">
+						<div class="input-group">
+							<input type="text" placeholder="Search ..." class="form-control">
+							<div class="input-group-append">
+								<span class="input-group-text">
+									<i class="la la-search search-icon"></i>
+								</span>
+							</div>
+						</div>
+					</form>
+					<ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
+						<li class="nav-item dropdown">
+							<a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false"> <img src="assets/img/profile.jpg" alt="user-img" width="36" class="img-circle"><span >Hizrian</span></span> </a>
+							<ul class="dropdown-menu dropdown-user">
+								<%
+								if (session.getAttribute("user") == null) {
+								out.print("<li ><a href=\"login\">登录</a></li>\n" +
+								"\t\t\t<li ><a href=\"register\">注册</a></li>");
+								}
+								%>
+								<%
+								if (session.getAttribute("user") != null) {
+								out.print("<li ><a href=\"logout\">注销登录</a></li>");
+								}
+								%>
+								<li>
+									<!-- 右上用户信息列表 -->
+									<div class="user-box">
+										<div class="u-img">
+											<img src="assets/img/profile.jpg" alt="user">
+										</div>
+										<div class="u-text">
+											<h4>Hizrian</h4>
+											<p class="text-muted">hello@themekita.com</p>
+											<a href="profile.html" class="btn btn-rounded btn-danger btn-sm">View Profile</a>
+										</div>
+									</div>
+								</li>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="profile"><i class="ti-user"></i>我的资料</a>
+								<a class="dropdown-item" href="#"></i>我的消息</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="login.html"><i class="fa fa-power-off"></i>注销</a>
+							</ul>
+							<!-- /.dropdown-user -->
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!-- 左侧导航栏 -->
+		<div class="sidebar">
+			<div class="scrollbar-inner sidebar-wrapper">
+				<div class="user">
+					<div class="photo">
+						<img src="assets/img/profile.jpg">
+					</div>
+					<div class="info">
+						<a class="" data-toggle="collapse" href="#collapseExample" aria-expanded="true">
+							<span>
+								Hizrian
+								<span class="user-level">司机</span>
+								<span class="caret"></span>
+							</span>
+						</a>
+						<div class="clearfix"></div>
+
+						<div class="collapse in" id="collapseExample" aria-expanded="true" style="">
+							<ul class="nav">
+								<li>
+									<a href="profile">
+										<span class="link-collapse">我的资料</span>
+									</a>
+								</li>
+								<li>
+									<a href="#settings">
+										<span class="link-collapse">我的消息</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<ul class="nav">
+					<li class="nav-item active">
+						<a href="index">
+							<i class="la la-dashboard"></i>
+							<p>我的主页</p>
+							<!-- <span class="badge badge-count">5</span> -->
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="myPublish">
+							<i class="la la-table"></i>
+							<p>我的发布</p>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="publish">
+							<i class="la la-keyboard-o"></i>
+							<p>我要发货</p>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="allPublished">
+							<i class="la la-car"></i>
+							<p>我要接单</p>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="myRequest">
+							<i class="la la-bell"></i>
+							<p>我的请求</p>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="tradeOrder">
+							<i class="la la-font"></i>
+							<p>我的订单</p>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="icons">
+							<i class="la la-fonticons"></i>
+							<p>Icons</p>
+						</a>
+					</li>
+					<li class="nav-item update-pro">
+						<button  data-toggle="modal" data-target="#modalUpdate">
+							<i class="la la-hand-pointer-o"></i>
+							<p>Update To Pro</p>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- main-panel -->
+		<div class="main-panel">
+			<div class="content">
+				<div class="container-fluid">
+					<div class="ml-md-12">
+						<img src="assets/img/profile.jpg" class="img-responsive" alt="Responsive image">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="assets/js/core/jquery.3.2.1.min.js"></script>
+<script src="assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="assets/js/core/popper.min.js"></script>
+<script src="assets/js/core/bootstrap.min.js"></script>
+<script src="assets/js/plugin/chartist/chartist.min.js"></script>
+<script src="assets/js/plugin/chartist/plugin/chartist-plugin-tooltip.min.js"></script>
+<!-- <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script> -->
+<script src="assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js"></script>
+<script src="assets/js/plugin/jquery-mapael/jquery.mapael.min.js"></script>
+<script src="assets/js/plugin/jquery-mapael/maps/world_countries.min.js"></script>
+<script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+<script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+<script src="assets/js/ready.min.js"></script>
+<script src="assets/js/demo.js"></script>
+</html>

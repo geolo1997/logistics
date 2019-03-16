@@ -14,7 +14,7 @@ public class UserDAOImpl implements UserDAO {
     @Override
     public User getUser(String username, String password) {
         DataBaseConnection connection = new DataBaseConnection();
-        String SQL = "SELECT * FROM [User] WHERE username = ? AND password = ?";
+        String SQL = "SELECT * FROM User WHERE username = ? AND password = ?";
         User user = null;
         try {
             PreparedStatement statement = connection.getConnection().prepareStatement(SQL);
@@ -34,7 +34,7 @@ public class UserDAOImpl implements UserDAO {
     @Override
     public String getUsername(int id) {
         DataBaseConnection connection = new DataBaseConnection();
-        String SQL = "SELECT * FROM [User] WHERE id = ?";
+        String SQL = "SELECT * FROM User WHERE id = ?";
         User user = null;
         try {
             PreparedStatement statement = connection.getConnection().prepareStatement(SQL);
@@ -53,7 +53,7 @@ public class UserDAOImpl implements UserDAO {
     @Override
     public boolean exist(String username) {
         DataBaseConnection connection = new DataBaseConnection();
-        String SQL = "SELECT * FROM [User] WHERE username = ?";
+        String SQL = "SELECT * FROM User WHERE username = ?";
         int cnt = 0;
         try {
             PreparedStatement statement = connection.getConnection().prepareStatement(SQL);
@@ -72,7 +72,7 @@ public class UserDAOImpl implements UserDAO {
     @Override
     public void save(User user) {
         DataBaseConnection connection = new DataBaseConnection();
-        String SQL = "INSERT INTO [User](username, password, email,userTypeId) " +
+        String SQL = "INSERT INTO User(username, password, email,userTypeId) " +
                 "VALUES(?, ?, ?, ?)";
         PreparedStatement statement;
         try {
@@ -91,7 +91,7 @@ public class UserDAOImpl implements UserDAO {
     @Override
     public void update(User user) {
         DataBaseConnection connection = new DataBaseConnection();
-        String SQL = "UPDATE [User] SET password=?, realName=?, email=?, telephone=?, " +
+        String SQL = "UPDATE User SET password=?, realName=?, email=?, telephone=?, " +
                 "userTypeId=?," +
                 " vehicleTypeId=?, transportableTypeId=?, licensePlateNumber=?, address=? WHERE " +
                 "id =?";
