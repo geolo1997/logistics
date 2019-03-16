@@ -6,7 +6,6 @@ import java.sql.SQLException;
 
 /**
  * @桀骜 数据库连接类
- * 单例模式
  */
 public class DataBaseConnection {
 
