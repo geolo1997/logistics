@@ -9,7 +9,7 @@
 <html>
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <title>我要接单-尼玛拉货</title>
+    <title>我要接单-物流助手</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
           name='viewport'/>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -33,7 +33,7 @@
     <div class="main-header">
         <div class="logo-header">
             <a href="index" class="logo">
-                尼玛拉货
+                物流助手
             </a>
         </div>
         <nav class="navbar navbar-header navbar-expand-lg" style="margin-top:10px;">

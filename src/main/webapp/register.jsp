@@ -42,10 +42,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2 text">
-                    <h1><strong>尼玛拉货</strong></h1>
+                    <h1><strong>物流助手</strong></h1>
                     <div class="description">
                         <p>
-                            欢迎注册<a href="#"><strong>尼玛拉货</strong></a>, 只需要简单几步，即可开启拉货之旅
+                            欢迎注册<a href="#"><strong>物流助手</strong></a>, 只需要简单几步，即可开启拉货之旅
                         </p>
                     </div>
                 </div>

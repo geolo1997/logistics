@@ -35,10 +35,10 @@
                 <div class="col-sm-8 col-sm-offset-2 text">
                     <h1><strong>搬家轿车装不下？送货运力不太足？
                         <br>
-                        尼玛拉货，一点就来劲</strong> </h1>
+                        物流助手，一点就来劲</strong> </h1>
                     <div class="description">
                         <p>
-                            欢迎来到尼玛拉货，我们极速响应，价格透明，运力充足，专业服务
+                            欢迎来到物流助手，我们极速响应，价格透明，运力充足，专业服务
                             <a href="#"></a>
                         </p>
                     </div>
@@ -48,7 +48,7 @@
                 <div class="col-sm-6 col-sm-offset-3 form-box">
                     <div class="form-top">
                         <div class="form-top-left">
-                            <h3>欢迎登陆<strong>尼玛拉货</strong></h3>
+                            <h3>欢迎登陆<strong>物流助手</strong></h3>
                             <p>请输入用户名和密码：</p>
                         </div>
                         <div class="form-top-right">
