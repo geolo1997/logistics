@@ -81,7 +81,7 @@
         reToNewImg: function () {
             var _this = this;
             var index = Math.round(Math.random() * 8);         // 获取随机数，用于随机图片，该方法有等于0 的情况
-            var imgSrc = "./slider/images/" + _this.imgList[index] + "";
+            var imgSrc = "./assets/img/confirm/" + _this.imgList[index] + "";
             _this.slideImg.setAttribute("src", imgSrc);
             _this.slideBlock.style.backgroundImage = "url("+ imgSrc +")";
             _this.slideImg.onload = function (e) {

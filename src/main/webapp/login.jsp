@@ -8,7 +8,6 @@
     <title>登陆</title>
 
     <!-- CSS -->
-    <%--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">--%>
     <link rel="stylesheet" href="assets/css/bootstrap.min2.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/form-elements.css">
@@ -20,8 +19,8 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
     <!-- 拼图验证 -->
-    <link rel="stylesheet" href="./slider/style.css" >
-    <script type="text/javascript" src="./slider/style.js"></script>
+    <link rel="stylesheet" href="assets/css/confirm_style.css" >
+    <script type="text/javascript" src="assets/js/confirm_style.js"></script>
     <script src="assets/js/FromCheck.js"></script>
 </head>
 

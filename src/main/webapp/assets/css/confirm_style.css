@@ -4,7 +4,7 @@
     align-items: center;
 }
 .scroll-background{
-    background-image: url("./images/sprite.3.2.0.png");
+    background-image: url("../img/sprite.3.2.0.png");
     background-repeat: no-repeat;
 }
 .scroll-bar{

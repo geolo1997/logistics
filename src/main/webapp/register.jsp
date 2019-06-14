@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>注册</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
     <link rel="stylesheet" href="assets/css/bootstrap.min2.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/form-elements.css">
@@ -31,8 +30,8 @@
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
     <!-- 拼图验证 -->
-    <link rel="stylesheet" href="./slider/style.css" >
-    <script type="text/javascript" src="./slider/style.js"></script>
+    <link rel="stylesheet" href="assets/css/confirm_style.css" >
+    <script type="text/javascript" src="assets/js/confirm_style.js"></script>
     <script src="assets/js/FromCheck.js"></script>
 </head>
 <body>
@@ -128,6 +127,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
             <!-- Javascript -->
             <script src="assets/js/jquery-1.11.1.min.js"></script>
             <script src="assets/js/bootstrap.min.js"></script>
