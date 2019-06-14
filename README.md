@@ -27,15 +27,15 @@ web应用——物流助手，您的物流好帮手
 网页截图
 --
 
-![image](https://github.com/Geolo1997/Nima-Logistics/raw/master/image/2019-03-16%2000-23-28屏幕截图.png)
-![image](https://github.com/Geolo1997/Nima-Logistics/raw/master/image/2019-03-16%2000-24-14屏幕截图.png)
-![image](https://github.com/Geolo1997/Nima-Logistics/raw/master/image/2019-03-16%2000-24-58屏幕截图.png)
-![image](https://github.com/Geolo1997/Nima-Logistics/raw/master/image/2019-03-16%2000-26-49屏幕截图.png)
-![image](https://github.com/Geolo1997/Nima-Logistics/raw/master/image/2019-03-16%2010-48-21屏幕截图.png)
-![image](https://github.com/Geolo1997/Nima-Logistics/raw/master/image/2019-03-16%2010-49-19屏幕截图.png)
-![image](https://github.com/Geolo1997/Nima-Logistics/raw/master/image/2019-03-16%2010-49-59屏幕截图.png)
-![image](https://github.com/Geolo1997/Nima-Logistics/raw/master/image/2019-03-16%2010-50-21屏幕截图.png)
-![image](https://github.com/Geolo1997/Nima-Logistics/raw/master/image/2019-03-16%2010-53-39屏幕截图.png)
+![image](https://github.com/Geolo1997/Logistics-Assistant/raw/master/image/2019-03-16%2000-23-28屏幕截图.png)
+![image](https://github.com/Geolo1997/Logistics-Assistant/raw/master/image/2019-03-16%2000-24-14屏幕截图.png)
+![image](https://github.com/Geolo1997/Logistics-Assistant/raw/master/image/2019-03-16%2000-24-58屏幕截图.png)
+![image](https://github.com/Geolo1997/Logistics-Assistant/raw/master/image/2019-03-16%2000-26-49屏幕截图.png)
+![image](https://github.com/Geolo1997/Logistics-Assistant/raw/master/image/2019-03-16%2010-48-21屏幕截图.png)
+![image](https://github.com/Geolo1997/Logistics-Assistant/raw/master/image/2019-03-16%2010-49-19屏幕截图.png)
+![image](https://github.com/Geolo1997/Logistics-Assistant/raw/master/image/2019-03-16%2010-49-59屏幕截图.png)
+![image](https://github.com/Geolo1997/Logistics-Assistant/raw/master/image/2019-03-16%2010-50-21屏幕截图.png)
+![image](https://github.com/Geolo1997/Logistics-Assistant/raw/master/image/2019-03-16%2010-53-39屏幕截图.png)
 
 TODO
 --
