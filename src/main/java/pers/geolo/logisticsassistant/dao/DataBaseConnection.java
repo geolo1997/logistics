@@ -10,8 +10,8 @@ import java.sql.SQLException;
 public class DataBaseConnection {
 
     private final String DBDRIVER = "com.mysql.jdbc.Driver";
-    private final String DB_URL = "jdbc:mysql://localhost:3306/Nima_Logistics";
-    private final String USER = "Geolo";
+    private final String DB_URL = "jdbc:mysql://localhost:3306/logistics_assistant?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai";
+    private final String USER = "root";
     private final String PASSWORD = "123456";
 
     private Connection connection;

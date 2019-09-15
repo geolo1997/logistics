@@ -61,7 +61,7 @@ CREATE TABLE Cargo (
     publishTime DATETIME, -- 发布时间
 
     cargoStateId BIGINT REFERENCES CargoState(id), -- 货物状态
-    driverId BIGINT REFERENCES [User](id), -- 承运司机
+    driverId BIGINT REFERENCES User(id), -- 承运司机
     dealTime DATETIME -- 成交时间
 );
 
