@@ -1,9 +1,9 @@
 <%@ page import="java.util.List" %>
-<%@ page import="pers.geolo.logisticsassistant.entity.Cargo" %>
-<%@ page import="pers.geolo.logisticsassistant.entity.User" %>
-<%@ page import="pers.geolo.logisticsassistant.value.UserType" %>
-<%@ page import="pers.geolo.logisticsassistant.service.UserService" %>
-<%@ page import="pers.geolo.logisticsassistant.value.CargoType" %>
+<%@ page import="pers.geolo.logistics.entity.Cargo" %>
+<%@ page import="pers.geolo.logistics.entity.User" %>
+<%@ page import="pers.geolo.logistics.constant.UserType" %>
+<%@ page import="pers.geolo.logistics.service.UserService" %>
+<%@ page import="pers.geolo.logistics.constant.CargoType" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
@@ -189,7 +189,7 @@
                                 <%
                                     String origin = (String) request.getAttribute("origin");
                                     if (origin != null) {
-                                        out.println("<input type=\"text\" name=\"origin\" class=\"form-control\" value=\"" + origin +"\">");
+                                        out.println("<input type=\"text\" name=\"origin\" class=\"form-control\" constant=\"" + origin +"\">");
                                     } else {
                                         out.println("<input type=\"text\" name=\"origin\" class=\"form-control\" placeholder=\"出发地\">");
                                     }
@@ -206,7 +206,7 @@
                                 <%
                                     String destination = (String) request.getAttribute("destination");
                                     if (origin != null) {
-                                        out.println("<input type=\"text\" name=\"destination\" class=\"form-control\" value=\"" + destination +"\">");
+                                        out.println("<input type=\"text\" name=\"destination\" class=\"form-control\" constant=\"" + destination +"\">");
                                     } else {
                                         out.println("<input type=\"text\" name=\"destination\" class=\"form-control\" placeholder=\"目的地\">");
                                     }
@@ -222,7 +222,7 @@
                                 <%
                                     CargoType cargoType = (CargoType) request.getAttribute("cargoType");
                                     if (origin != null) {
-                                        out.println("<input type=\"text\" name=\"cargoType\" class=\"form-control\" value=\"" + cargoType +"\">");
+                                        out.println("<input type=\"text\" name=\"cargoType\" class=\"form-control\" constant=\"" + cargoType +"\">");
                                     } else {
                                         out.println("<input type=\"text\" name=\"cargoType\" class=\"form-control\" placeholder=\"货物类型\">");
                                     }

@@ -1,6 +1,6 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8" %>
-<%@ page import="pers.geolo.logisticsassistant.entity.User" %>
-<%@ page import="pers.geolo.logisticsassistant.value.UserType" %>
+<%@ page import="pers.geolo.logistics.entity.User" %>
+<%@ page import="pers.geolo.logistics.constant.UserType" %>
 <!DOCTYPE html>
 <html>
 <head>

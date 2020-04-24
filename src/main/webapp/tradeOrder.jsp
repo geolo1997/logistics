@@ -1,8 +1,8 @@
-<%@ page import="pers.geolo.logisticsassistant.entity.Cargo" %>
+<%@ page import="pers.geolo.logistics.entity.Cargo" %>
 <%@ page import="java.util.List" %>
-<%@ page import="pers.geolo.logisticsassistant.entity.User" %>
-<%@ page import="pers.geolo.logisticsassistant.value.UserType" %>
-<%@ page import="pers.geolo.logisticsassistant.service.UserService" %>
+<%@ page import="pers.geolo.logistics.entity.User" %>
+<%@ page import="pers.geolo.logistics.constant.UserType" %>
+<%@ page import="pers.geolo.logistics.service.UserService" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
@@ -231,7 +231,7 @@
                                 out.println("<li class=\"list-group-item\">运费:" + cargo.getFreight() + "</li>");
                                 out.println("<li class=\"list-group-item\">运输司机:" + cargo.getDriverId() + "</li>");
                                 out.println("<li class=\"list-group-item\">成交时间:" + cargo.getDealTime() + "</li>");
-                                out.println("<li class=\"list-group-item\">货物状态:<input id=\"stateInput" + cargo.getId() + "\" value=\"" + cargo.getCargoState() + "\" disabled> " +
+                                out.println("<li class=\"list-group-item\">货物状态:<input id=\"stateInput" + cargo.getId() + "\" constant=\"" + cargo.getCargoState() + "\" disabled> " +
                                         "<button id=\"editCargoState" + cargo.getId() + "\" onclick=\"changeState(" + cargo.getId() +")\">编辑</button></li>");
                                 out.println(" </ul>\n" +
                                         "                                </div>\n" +

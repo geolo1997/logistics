@@ -1,12 +1,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page import="pers.geolo.logisticsassistant.entity.Cargo" %>
+<%@ page import="pers.geolo.logistics.entity.Cargo" %>
 <%@ page import="java.util.List" %>
-<%@ page import="pers.geolo.logisticsassistant.entity.Request" %>
-<%@ page import="pers.geolo.logisticsassistant.value.CargoState" %>
-<%@ page import="pers.geolo.logisticsassistant.entity.User" %>
-<%@ page import="pers.geolo.logisticsassistant.value.UserType" %>
-<%@ page import="pers.geolo.logisticsassistant.service.CargoService" %>
-<%@ page import="pers.geolo.logisticsassistant.service.UserService" %>
+<%@ page import="pers.geolo.logistics.entity.Request" %>
+<%@ page import="pers.geolo.logistics.constant.CargoState" %>
+<%@ page import="pers.geolo.logistics.entity.User" %>
+<%@ page import="pers.geolo.logistics.constant.UserType" %>
+<%@ page import="pers.geolo.logistics.service.CargoService" %>
+<%@ page import="pers.geolo.logistics.service.UserService" %>
 <!DOCTYPE html>
 <html>
 <head>
